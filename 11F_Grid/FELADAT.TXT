@@ -1,0 +1,51 @@
+CSS Grid gyakorlófeladat — Reszponzív fotógaléria
+--------------------------------------------------
+
+Használja a CSS Grid layout rendszert, készítsen reszponzív elrendezést, alkalmazzon különböző méretű grid-elemeket,
+használja a:
+ * grid-template-columns
+ * gap
+ * repeat()
+ * minmax()
+ * grid-column
+ * grid-row
+ * media query
+tulajdonságokat.
+
+
+
+Készíts egy modern fotógaléria weboldalt!
+
+A galériában:
+
+- legalább 10 kép szerepeljen,
+- a képek rácsszerkezetben helyezkedjenek el,
+- néhány kép legyen kiemelt méretű,
+- az oldal mobilon és asztali gépen is jól használható legyen.
+
+Kötelező elvárások:
+- - - - - - - - - - 
+HTML
+ - használj header elemet címmel, legyen egy main elem, a galéria elemei div vagy figure elemek legyenek.
+
+CSS
+
+a) A galéria
+
+Grid alapú legyen,
+legalább:
+ - 4 oszlopos desktop nézet,
+ - 2 oszlopos tablet nézet,
+ - 1 oszlopos mobil nézet.
+
+
+b) Kiemelt képek
+
+Legalább:
+ - 1 elem foglaljon el 2 oszlopot,
+ - 1 elem foglaljon el 2 sort.
+
+c) Plusz feladatok
+ - hover animáció
+ - árnyék
+ - lekerekített sarkok

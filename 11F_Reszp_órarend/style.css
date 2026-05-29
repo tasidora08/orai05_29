@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.day {
+    border: 2px solid black;
+    margin: 15px;
+    padding: 5px;
+}
+
+.lesson {
+    border-radius: 5px;
+    margin: 5px
+}
+
+.matek {
+    background-color: aquamarine;
+}
+
+.tori {
+    background-color: rosybrown;
+}
+
+.nemet {
+    background-color: blueviolet;
+}
+
+.ab2 {
+    background-color: yellowgreen;
+    grid-row: span 2;
+}
+
+.asztali4 {
+    background-color: tomato;
+    grid-row: span 4;
+}
+
+.web {
+    background-color: sienna;
+}
+
+.irodalom {
+    background-color: seagreen;
+}
+
+.ofo {
+    background-color: goldenrod;
+}
+
+.tesi {
+    background-color: silver;
+}
+
+.nyelvtan {
+    background-color: peru;
+}
+
+.fizika {
+    background-color: olivedrab;
+}
+
+.angol {
+    background-color: lightpink;
+}
+
+.ikt {
+    background-color: mediumseagreen;
+}
+
+@media (min-width: 700px) {
+    .schedule {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1100px) {
+    .schedule {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
